@@ -10,6 +10,8 @@
     "coffee-script": "^1.8.0",
     "gulp": "^3.8.10",
     "gulp-bump": "^0.1.11",
-    "gulp-header": "^1.2.2"
+    "gulp-header": "^1.2.2",
+    "require-dir": "^0.1.0",
+    "run-sequence": "^1.0.2"
   }
 }
