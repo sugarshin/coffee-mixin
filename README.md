@@ -1,18 +1,16 @@
-# Module
+# Mixin
 
-Mixins class for CoffeeScript
+Mixins for CoffeeScript
 
 Like Ruby modules and mixins
 
 ```coffeescript
-Module = require './module'
+Mixin = require './mixin'
 Utility = require './utility'
 
 class Child extends Parent
-  Module.include @, Utility
-
+  Mixin.include @, Utility
   @classMethod: ->
-
   constructor: (name) -> super name
   someMethod: ->
 

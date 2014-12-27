@@ -1,5 +1,10 @@
+###!
+ * @license coffee-mixin v2.0.0
+ * (c) 2014 sugarshin https://github.com/sugarshin
+ * License: MIT
+###
 module.exports =
-  class Module
+  class Mixin
     @inheritance: (child, parent) ->
       for own key of parent
         child[key] = parent[key]

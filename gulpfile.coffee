@@ -12,7 +12,7 @@ banner = """
 
 """
 
-fileName = 'module'
+fileName = 'mixin'
 
 gulp.task 'header', ->
   gulp.src "src/#{fileName}.coffee"
