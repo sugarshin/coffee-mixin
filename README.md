@@ -29,11 +29,11 @@ Include
 
 As instance method
 
-### `@extend child, parent`
+### `@inheritance child, parent`
 
-Extend
+Inheritance
 
-About the same as `extends`
+About the same as `extends` keyword
 
 ## Contributing
 

@@ -1,6 +1,6 @@
 module.exports =
   class Module
-    @extend: (child, parent) ->
+    @inheritance: (child, parent) ->
       for own key of parent
         child[key] = parent[key]
 

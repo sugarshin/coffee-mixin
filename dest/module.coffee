@@ -1,11 +1,11 @@
 ###!
- * @license coffee-module v0.1.0
+ * @license coffee-module v1.0.0
  * (c) 2014 sugarshin https://github.com/sugarshin
  * License: MIT
 ###
 module.exports =
   class Module
-    @extend: (child, parent) ->
+    @inheritance: (child, parent) ->
       for own key of parent
         child[key] = parent[key]
 
