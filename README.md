@@ -19,15 +19,15 @@ child.parentMethod()
 child.utilMethod()
 ```
 
-## api
+## API
 
-### `@include obj, mixin`
+### `@include(obj, mixin)`
 
 Include
 
 As instance method
 
-### `@inheritance child, parent`
+### `@inheritance(child, parent)`
 
 Inheritance
 

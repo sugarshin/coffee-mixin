@@ -14,10 +14,14 @@ banner = """
 
 fileName = 'mixin'
 
+$ =
+  SRC: 'src'
+  DEST: 'dest'
+
 gulp.task 'header', ->
-  gulp.src "src/#{fileName}.coffee"
+  gulp.src "#{$.SRC}/#{fileName}.coffee"
     .pipe header(banner)
-    .pipe gulp.dest('dest')
+    .pipe gulp.dest("#{$.DEST}")
 
 gulp.task 'major', ->
   gulp.src './*.json'
