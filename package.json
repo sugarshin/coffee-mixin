@@ -1,0 +1,15 @@
+{
+  "name": "coffee-module",
+  "version": "0.1.0",
+  "description": "Mixins class for CoffeeScript",
+  "homepage": "https://github.com/sugarshin",
+  "repository": "git@github.com:sugarshin/coffee-module.git",
+  "author": "sugarshin",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "gulp": "^3.8.10",
+    "gulp-bump": "^0.1.11",
+    "gulp-header": "^1.2.2"
+  }
+}
