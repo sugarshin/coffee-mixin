@@ -14,6 +14,11 @@ module.exports =
 
       return child
 
+    @extend: (obj, mixin) ->
+      for own key, value of mixin
+        obj[key] = value
+      return this
+
     @include: (obj, mixin) ->
       for own key, value of mixin
         obj::[key] = value

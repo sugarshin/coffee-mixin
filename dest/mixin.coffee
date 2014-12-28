@@ -1,5 +1,5 @@
 ###!
- * @license coffee-mixin v2.0.0
+ * @license coffee-mixin v2.1.0
  * (c) 2014 sugarshin https://github.com/sugarshin
  * License: MIT
 ###
@@ -18,6 +18,11 @@ module.exports =
       child.__super__ = parent::
 
       return child
+
+    @extend: (obj, mixin) ->
+      for own key, value of mixin
+        obj[key] = value
+      return this
 
     @include: (obj, mixin) ->
       for own key, value of mixin

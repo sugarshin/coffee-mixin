@@ -5,6 +5,8 @@ Mixins for CoffeeScript
 Like Ruby modules and mixins
 
 ```coffeescript
+# Include
+
 Mixin = require './mixin'
 Utility = require './utility'
 
@@ -20,6 +22,12 @@ child.utilMethod()
 ```
 
 ## API
+
+### `@extend(obj, mixin)`
+
+Extend
+
+As class method
 
 ### `@include(obj, mixin)`
 
