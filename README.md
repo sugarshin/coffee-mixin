@@ -42,8 +42,24 @@ Inheritance
 About the same as `extends` keyword
 
 ## Contributing
-
+  
 [gulp.js](//gulpjs.com/)
+
+```shell
+npm i
+```
+
+## Test
+
+[Mocha](//mochajs.org/)
+
+[expect.js](//github.com/Automattic/expect.js)
+
+```shell
+bower i
+
+gulp test
+```
 
 ## License
 

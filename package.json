@@ -7,11 +7,15 @@
   "author": "sugarshin",
   "license": "MIT",
   "devDependencies": {
+    "browser-sync": "^1.8.2",
+    "browserify": "^8.0.3",
     "coffee-script": "^1.8.0",
+    "coffeeify": "^1.0.0",
     "gulp": "^3.8.10",
     "gulp-bump": "^0.1.11",
     "gulp-header": "^1.2.2",
+    "gulp-sequence": "^0.3.1",
     "require-dir": "^0.1.0",
-    "run-sequence": "^1.0.2"
+    "vinyl-source-stream": "^1.0.0"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "name": "coffee-mixin",
+  "version": "2.1.0",
+  "homepage": "https://github.com/sugarshin/coffee-mixin",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "mocha": "~2.1.0",
+    "expect": "~0.3.1"
+  }
+}

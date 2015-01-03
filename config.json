@@ -1,0 +1,6 @@
+{
+  "NAME": "mixin",
+  "SRC": "src",
+  "DEST": "dest",
+  "TEST": "test"
+}
