@@ -31,3 +31,5 @@ node_modules
 ignore
 
 bower_components
+
+test/test.js
