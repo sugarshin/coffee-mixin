@@ -35,7 +35,7 @@ Include
 
 As instance method
 
-### `@inheritance(child, parent)`
+### `@inherit(child, parent)`
 
 Inheritance
 

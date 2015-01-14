@@ -1,4 +1,9 @@
 ###!
+ * @license coffee-mixin v2.2.0
+ * (c) 2015 sugarshin https://github.com/sugarshin
+ * License: MIT
+###
+###!
  * @license coffee-mixin v2.1.0
  * (c) 2014 sugarshin https://github.com/sugarshin
  * License: MIT

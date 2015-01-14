@@ -1,6 +1,6 @@
 module.exports =
   class Mixin
-    @inheritance: (child, parent) ->
+    @inherit: (child, parent) ->
       for own key of parent
         child[key] = parent[key]
 
@@ -13,6 +13,9 @@ module.exports =
       child.__super__ = parent::
 
       return child
+
+    # Aliases for @inherit
+    @inheritance: @inherit
 
     @extend: (obj, mixin) ->
       for own key, value of mixin

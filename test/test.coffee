@@ -1,4 +1,4 @@
-Mixin = require '../dest/mixin'
+Mixin = require '../src/mixin'
 
 class Util
   @utilMethod1: -> 'util1'
@@ -19,16 +19,23 @@ class Child2 extends Parent
   child2Method: -> @name
 
 class Child3
-  Mixin.inheritance @, Parent
+  Mixin.inherit @, Parent
   Mixin.extend @, Util
   Mixin.include @, Util
   constructor: (name) -> super name
   child3Method: -> @name
 
+class Child4
+  Mixin.inheritance @, Parent
+  Mixin.extend @, Util
+  Mixin.include @, Util
+  constructor: (name) -> super name
+  child4Method: -> @name
 
 
-# @inheritance()
-describe '@inheritance()', ->
+
+# @inherit()
+describe '@inherit()', ->
   it '適切に継承ができていること', ->
     child3 = new Child3 'child3'
 
@@ -41,6 +48,24 @@ describe '@inheritance()', ->
     .be 'util1'
 
     expect(child3.utilMethod2())
+    .to
+    .be 'util2'
+
+# @inheritance()
+# Aliases for @inherit
+describe '@inheritance() # Aliases for @inherit', ->
+  it '適切に継承ができていること', ->
+    child4 = new Child4 'child4'
+
+    expect(child4.child4Method())
+    .to
+    .be 'child4'
+
+    expect(Child4.utilMethod1())
+    .to
+    .be 'util1'
+
+    expect(child4.utilMethod2())
     .to
     .be 'util2'
 
