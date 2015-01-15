@@ -1,16 +1,11 @@
 ###!
- * @license coffee-mixin v2.2.0
+ * @license coffee-mixin v2.2.1
  * (c) 2015 sugarshin https://github.com/sugarshin
- * License: MIT
-###
-###!
- * @license coffee-mixin v2.1.0
- * (c) 2014 sugarshin https://github.com/sugarshin
  * License: MIT
 ###
 module.exports =
   class Mixin
-    @inheritance: (child, parent) ->
+    @inherit: (child, parent) ->
       for own key of parent
         child[key] = parent[key]
 
@@ -23,6 +18,9 @@ module.exports =
       child.__super__ = parent::
 
       return child
+
+    # Aliases for @inherit
+    @inheritance: @inherit
 
     @extend: (obj, mixin) ->
       for own key, value of mixin

@@ -1,6 +1,6 @@
 {
   "name": "coffee-mixin",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Mixins for CoffeeScript",
   "homepage": "https://github.com/sugarshin",
   "repository": "git@github.com:sugarshin/coffee-mixin.git",
