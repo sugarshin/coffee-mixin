@@ -53,7 +53,7 @@ npm i
 
 [Mocha](//mochajs.org/)
 
-[expect.js](//github.com/Automattic/expect.js)
+[power-assert](//github.com/twada/power-assert)
 
 ```shell
 bower i

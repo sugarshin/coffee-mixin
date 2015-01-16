@@ -12,6 +12,6 @@
   ],
   "devDependencies": {
     "mocha": "~2.1.0",
-    "expect": "~0.3.1"
+    "power-assert": "~0.10.1"
   }
 }
